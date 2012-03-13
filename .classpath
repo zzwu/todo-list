@@ -15,7 +15,7 @@
   <classpathentry kind="lib" path="lib/java.jdbc-0.0.3.jar"/>
   <classpathentry kind="lib" path="lib/jetty-6.1.26.jar"/>
   <classpathentry kind="lib" path="lib/jetty-util-6.1.26.jar"/>
-  <classpathentry kind="lib" path="lib/postgresql-9.0-801.jdbc4.jar"/>
+  <classpathentry kind="lib" path="lib/postgresql-8.4-702.jdbc4.jar"/>
   <classpathentry kind="lib" path="lib/ring-core-0.3.10.jar"/>
   <classpathentry kind="lib" path="lib/ring-jetty-adapter-0.3.10.jar"/>
   <classpathentry kind="lib" path="lib/ring-servlet-0.3.10.jar"/>
