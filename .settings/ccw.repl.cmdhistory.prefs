@@ -1,0 +1,3 @@
+#Tue Mar 13 16:05:14 CST 2012
+cmdhistory=[";; Loading file src/todo_list/models/migration.clj" "(-main)" ";; Loading file src/todo_list/models/migration.clj" "(-main)" "(db)" ";; Loading file src/todo_list/models/base.clj" "db" ";; Loading file src/todo_list/models/migration.clj" "(db)" "db" "(-main)" "db" "(-main)" "(ns 'todo-list.models.note)" "(ns '[todo-list.models.note])" ";; Loading file src/todo_list/models/note.clj" "(create \\"\u6CE8\u518C\u7B2C\u4E00\u6B65\u5361\u72471\\")" "(all)" "(create \\"\u5361\u72471\\")"]
+eclipse.preferences.version=1
