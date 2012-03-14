@@ -29,5 +29,5 @@
   (GET "/home" [] (home))
   (GET "/delete/:id" [id] (delete-note id))
   (GET "/create" [] (create-note))
-  (GET "/create-note" {params :params} (create-note! params)))
+  (POST "/create-note" {params :params} (create-note! params)))
 
