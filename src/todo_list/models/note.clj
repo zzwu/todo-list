@@ -10,6 +10,7 @@
 
 (defn create
   [content]
+  (print (str "create note , content:" content))
   (sql/with-connection db
     (sql/insert-values :note [:content] [content])))
 
