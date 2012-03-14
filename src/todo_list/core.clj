@@ -3,9 +3,7 @@
   (:require [compojure.route :as route]
             [compojure.handler :as handler]
             [ring.adapter.jetty :as ring]
-            [blog-comments.controllers.comments]
-            [blog-comments.controllers.posts]
-            [blog-comments.views.layout :as layout]))
+            [todo-list.controller]))
 
 (defroutes reoutes
   todo-list.controller/routes
