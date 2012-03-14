@@ -7,7 +7,7 @@
 
 (defn home
   []
-  (view/home note/all))
+  (view/home (note/all)))
 
 (defroutes routes
   (GET "/" [] (response/redirect "/home"))
