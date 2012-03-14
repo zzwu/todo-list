@@ -7,7 +7,7 @@
   [note]
   (list
     [:h2 {:class "note"} (escape-html (:content note))]
-    [{:p "Created at: " (:created_at note)}]
+    ;[{:p "Created at: " (:created_at note)}]
     [:a {:href (str "/delete/" (:id note))} "finish"]))
 
 (defn home
