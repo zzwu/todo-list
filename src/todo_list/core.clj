@@ -3,11 +3,11 @@
   (:require [compojure.route :as route]
             [compojure.handler :as handler]
             [ring.adapter.jetty :as ring]
-            [todo-list.controller]
+            [todo-list.controller :as controller]
             [todo-list.layout :as layout]))
 
 (defroutes routes
-  todo-list.controller/routes
+  controller/routes
   (route/resources "/")
   (route/not-found (layout/four-oh-four)))
 
