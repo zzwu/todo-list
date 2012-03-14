@@ -11,7 +11,7 @@
   (route/resources "/")
   (route/not-found (layout/four-oh-four)))
 
-(def app (hanlder/site routes))
+(def app (handler/site routes))
 
 (defn start [port]
   (ring/run-jetty (var app) {:port (or port 8080) :join false }))
