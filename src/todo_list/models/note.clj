@@ -17,7 +17,6 @@
   [id]
   (sql/with-connection
     db
-    (sql/delete-rows
-      db
+    (sql/delete-rows :note
       ["id=?" id])))
 
