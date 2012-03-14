@@ -6,7 +6,7 @@
             [todo-list.controller]
             [todo-list.layout :as layout]))
 
-(defroutes reoutes
+(defroutes routes
   todo-list.controller/routes
   (route/resources "/")
   (route/not-found (layout/four-oh-four)))
