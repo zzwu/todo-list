@@ -9,7 +9,7 @@
   (view/home))
 
 (defroutes routes
-  (GET "/" (response/redirect "/home"))
+  (GET "/" [] (response/redirect "/home"))
 
-  (GET "/home" (home)))
+  (GET "/home" [] (home)))
 
