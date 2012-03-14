@@ -6,8 +6,7 @@
 (defn note-display
   [note]
   (list
-    [:h2 {:class "note"} (escape-html (:content note))]
-    [:p "Created at: " (:created_at note)]
+    [:h2 {:class "note"} (escape-html (:content note)) {:p "Created at: " (:created_at note)}]
     [:a {:href (str "/delete/" (:id note))} "finish"]))
 
 (defn home
@@ -15,6 +14,7 @@
   (layout/common 
     "TodoList"
     [:div
-     (map note-display notes)]))
+     (map note-display notes)]
+    [:a {:href "/create"} "add note"]))
 
 
