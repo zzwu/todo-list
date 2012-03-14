@@ -3,7 +3,8 @@
   (:require [compojure.route :as route]
             [compojure.handler :as handler]
             [ring.adapter.jetty :as ring]
-            [todo-list.controller]))
+            [todo-list.controller]
+            [todo-list.layout :as layout]))
 
 (defroutes reoutes
   todo-list.controller/routes
